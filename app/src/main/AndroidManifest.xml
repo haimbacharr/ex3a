@@ -23,7 +23,7 @@
             android:name=".Register"
             android:exported="false">
             <intent-filter>
-                <action android:name="com.action.ex3a.register" />
+                <action android:name="com.action.ex3.register" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
