@@ -19,15 +19,16 @@
             </intent-filter>
         </activity>
 
+        <!-- Start  -> This is the second activity , this is the only change in the manifest-->
         <activity
             android:name=".Register"
-            android:exported="false">
+            android:exported="true">
             <intent-filter>
-                <action android:name="com.action.ex3.register" />
+                <action android:name="com.action.ex3.register" /> <!--The name of the action that will be called from the client -->
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
+        <!-- End -> This is the second activity , this is the only change in the manifest-->
     </application>
 
 </manifest>
